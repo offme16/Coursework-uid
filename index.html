@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Capycinema</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigate">
+            <h1>CAPYCINEMA</h1>
+            <ul class="navigate-item">
+             <li><a href="#">Главное</a></li>
+             <li><a href="#">Моё</a></li>       
+             <li><a href="#">Подписки</a></li>
+             <li><a href="#">Каналы</a></li>
+             <li><a href="#">Спорт</a></li>
+            </ul> 
+            <div class="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>                 
+        </nav>
+        <div class="header__down">
+            <div class="header-info">
+                <h2>Очень странные дела</h2>
+                <p>«О́чень стра́нные дела́», или «Зага́дочные собы́тия» — американский научно-фантастический <br> драматический сериал ужасов, созданный братьями Даффер</p>
+            </div>
+            <div class="header__buttons">
+                <a href="./Film/Film.html"><button>Смотреть сериал</button></a>
+                <button>О сериале</button>
+            </div>
+        </div>  
+    </header>
+    <section class="genre">
+        <h2>Жанры</h2>
+        <div class="genre-list">
+            <div class="list-column">
+                <button>Боевик</button>
+                <button>Экшен</button>    
+            </div>
+            <div class="list-column">
+                <button>Триллеры</button>
+                <button>Приключения</button>                       
+            </div>
+            <div class="list-column">
+                <button>Турецкие</button>  
+                <button>Ужасы</button>                      
+            </div>
+            <div class="list-column">
+                <button>Фэнтези</button>
+                <button>Зарубежные</button>                   
+            </div>
+            <div class="list-column">
+                <button>Семейные</button>
+                <button>Детективы</button>             
+            </div>
+            <div class="list-column">
+                <button>Исторические</button>
+                <button>По комиксам</button>
+                
+            </div>
+            <div class="list-column">
+                <button>Аниме</button>
+                <button>Военные</button>
+                
+            </div>
+            <div class="list-column">
+                <button>Советские</button>
+                <button>Биографии</button>
+               
+            </div>
+            <div class="list-column">
+                <button>Зарубежные</button>
+                <button>Драмы</button>
+            </div>
+            <div class="list-column">
+                <button>Фантастика</button>
+                <button>Для детей</button> 
+            </div>
+            <div class="list-column">
+                <button>Мелодрамы</button>
+                <button>Комедии</button>
+            </div>
+        </div>
+    </section>
+    <section class="top-month">
+        <h2>Топ-10 за месяц</h2>
+        <div class="top-month__slider">
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">1</div>
+                <img src="./images/1.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">2</div>
+                <img src="./images/2.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">3</div>
+                <img src="./images/3.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">4</div>
+                <img src="./images/4.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">5</div>
+                <img src="./images/5.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">6</div>
+                <img src="./images/6.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">7</div>
+                <img src="./images/7.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">8</div>
+                <img src="./images/8.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__number">9</div>
+                <img src="./images/9.webp" alt="poster-top10">
+            </div></a>
+           <a href="#"><div class="top-month__box hover">
+                <div class="top-month__numberlast">10</div>
+                <img src="./images/10.webp" alt="poster-top10">
+            </div></a>
+        </div>
+        <div class="top-month__btns">
+            <button id="tm-prevbtn"><img src="./images/arrowprev.svg"></button>
+            <button id="tm-nextbtn"><img src="./images/arrownext.svg"></button>
+        </div>
+    </section>
+   
+    <section class="premier">
+        <h2>Премьера: "Цикады"</h2>
+        <a href="#">
+            <div id="photoGallery" class="premier-slider">
+                <img class="hover" src="./images/pre1.webp" alt="photo">
+                <img class="hover" src="./images/pre2.webp" alt="photo">
+                <img class="hover" src="./images/pre3.webp" alt="photo">
+                <img class="hover" src="./images/pre4.webp" alt="photo">
+                <img class="hover" src="./images/pre5.webp" alt="photo">
+                <img class="hover" src="./images/pre6.webp" alt="photo">
+                <img class="hover" src="./images/pre7.webp" alt="photo">
+            </div>
+        </a>
+        <div class="premier-btn">
+            <button id="pre-prevbtn"><img src="./images/arrowprev.svg"></button>
+            <button id="pre-nextbtn"><img src="./images/arrownext.svg"></button>
+        </div>
+    </section>
+
+    <section class="films">
+        <a href="./FilmsPage/FilmsPage.html"><h2>Фильмы для вас</h2></a>
+        <div class="films-slider">
+                <a href="#"><img class="hover" src="./images/film1.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film2.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film3.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film4.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film5.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film6.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film7.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film8.webp" alt="film"></a>            
+                <a href="#"><img class="hover" src="./images/film9.webp" alt="film"></a>
+        </div>
+        <div class="films-btn">
+            <button id="film-prevbtn" ><img src="./images/arrowprev.svg"></button>
+            <button id="film-nextbtn"><img src="./images/arrownext.svg"></button>
+        </div>
+        
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-inner__links container">
+                <div class="icons">
+                    <a href="#"><img src="./images/vk.svg" alt="vk-icon"></a>
+                    <a href="#"><img src="./images/tg.svg" alt="tg-icon"></a>
+                    <a href="#"><img src="./images/youtube.svg" alt="yout-icon"></a>
+                </div>
+                <p>Мы всегда готовы вам помочь.</p>
+                <a id="queryfooter">Задать вопрос</a>
+            </div>
+            <div class="footer-inner__info">
+                <p>2023-2024 Capycinema. 18+</p>
+                <p>HBO ® and related service marks are the property of Home Box Office, Inc</p>
+                <p>ООО «Capycinema», адрес местонахождения: 156034, Россия, г. Казань, ул. Садовническая, д. 82</p>
+                <p>Адрес для обращений пользователей: capycinema@support.mail.ru</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <form class="modal-content__form" >
+                <h3>Введите ваш e-mail</h3>
+                <input type="email" placeholder="Введите здесь..."/>
+                <h3>Введите ваш вопрос</h3>
+                <input type="text" placeholder="Введите здесь...">
+            </form>
+            <div class="modal__button">
+                <button id="closeModal"><p>Задать вопрос</p></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./burger.js"></script>
+</body>
+</html>

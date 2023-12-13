@@ -1,0 +1,30 @@
+@media screen and (max-width: 868px) {
+    .navigate {
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navigate-item {
+      display: none;
+      border-bottom: 1px solid #fff;
+    }
+    .header {
+      padding: 10px;
+    }
+  
+    /* Добавление иконки бургера */
+    .navigate .burger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navigate .burger img {
+      width: 30px;
+      height: auto;
+    }
+  }
+  @media (max-width: 500px){
+    .films-box{
+        padding: 0;
+    }
+  }

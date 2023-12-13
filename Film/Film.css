@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --ft-text-color: #ffffff7a;
+    --animation-transition: all 0.3s ease;
+}
+body{
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    background-color: #000;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Metal Mania', cursive;
+
+}
+h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    transition: var(--animation-transition);
+    border-radius: 30px;
+    border: none;
+}
+button:hover{
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigate {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigate-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigate-item li {
+    margin: 0 40px;
+}
+.hover:hover{
+    transform: scale(1.04);
+    box-shadow: -4px 0px 79px 25px rgba(0, 0, 0, 0.45);
+}
+a:hover{
+    color: #fff;
+}
+a:active, 
+a {
+  text-decoration: none;
+  color: var(--ft-text-color);;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+.burger {
+    display: none; /* Изначально скрыто для больших экранов */
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Три полоски бургера */
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+  
+  /* Стили анимации для плавного появления */
+.navigate-item.active {
+    display: block;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    background-color: black;
+    border-top: 1px solid #fff;
+    animation: slide-down 0.3s forwards;
+  }
+  
+  @keyframes slide-down {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+.content{
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.content-info{
+    display: flex;
+    gap: 50px;
+    padding-left: 30px;
+}
+.description{
+    padding: 50px 30px;
+}
+.content-info img{
+    width: 250px;
+    height: auto;
+}
+span{
+    font-weight: bold;
+}
+video{
+    width:100%;
+    height:auto;   
+}
+.content-film{
+    margin-bottom: 150px;
+    padding: 50px 30px;
+}
+.footer-inner__links{
+    padding: 20px 0;
+    border-top: 1px solid var(--ft-text-color);
+}
+.footer-inner__links p{
+    color: var(--ft-text-color);
+}
+.icons{
+    display: flex;
+    gap: 15px; 
+}
+.icons a{
+    transition: all 0.3s ease;
+}
+.icons a:hover{
+   
+    transform: scale(1.2);
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+#queryfooter{
+    color: #fff;
+    cursor: pointer;
+}
+.footer-inner__info{
+    border-top: 1px solid var(--ft-text-color);
+    padding-left: 35px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: var(--ft-text-color);
+}

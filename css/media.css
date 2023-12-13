@@ -1,0 +1,59 @@
+@media(max-width: 970px){
+
+}
+@media(max-width: 970px) {
+    .navigate {
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header__buttons {
+      padding-left: 10px;
+    }
+    .navigate-item {
+      display: none;
+      border-bottom: 1px solid #fff;
+    }
+    .header {
+      padding: 10px;
+    }
+    .header-info{
+      margin-top: 150px;
+    }
+    .header__down{
+      height: 85%;
+    }
+    .navigate .burger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navigate .burger img {
+      width: 30px;
+      height: auto;
+    }
+}
+
+@media(max-width: 1500px) {
+    .genre-list{
+        gap: 10px;
+    }
+}
+@media(max-width: 1400px) {
+    .list-column{
+        flex-direction: row;
+    }
+}
+@media(max-width: 1700px) {
+  .header {
+      background-size: cover; /* Изменение размера фона для мобильных устройств */
+      height: 700px; /* Уменьшение высоты заголовка для мобильных устройств */
+  }
+
+  .header h1 {
+      font-size: 24px; /* Уменьшение размера заголовка для мобильных устройств */
+  }
+  .genre-list{
+      gap: 20px;
+  }
+  /* Другие стили для мобильных устройств */
+}

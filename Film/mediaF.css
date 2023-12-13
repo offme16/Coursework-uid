@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .content {
+      padding-top: 20px; 
+    }
+  
+    .content-info {
+      flex-direction: column;
+      gap: 20px; 
+      padding-left: 15px;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .content-info img {
+      width: 100%;
+    }
+  
+    .description,
+    .content-film {
+      padding: 20px 15px;
+    }
+  }
+  
+@media screen and (max-width: 968px) {
+    .navigate {
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navigate-item {
+      display: none;
+      border-bottom: 1px solid #fff;
+    }
+    .header {
+      padding: 10px;
+    }
+    .navigate .burger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navigate .burger img {
+      width: 30px;
+      height: auto;
+    }
+  }
